@@ -1,0 +1,72 @@
+\documentclass[11pt]{res} % default is 10 pt
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textheight}{9.5in} % increase text height to fit resume on 1 page
+\newsectionwidth{0pt}  % So the text is not indented under section headings
+
+\usepackage{color}
+\usepackage{setspace}
+\usepackage{fontawesome}
+\usepackage[hidelinks]{hyperref}
+
+% Redefinition, symbol included in link:
+\let\orighref\href
+\renewcommand{\href}[2]{\orighref{#1}{#2\,\faExternalLink}}
+
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+\begin{document} 
+
+ 
+\name{\Huge Olga Telezhnaia\\[20pt]} % the \\[12pt] adds a blank line after name
+
+\address{March 2018 \\ Saint Petersburg, Russia}
+
+\address{\href{mailto:olyatelezhnaya@gmail.com}{olyatelezhnaya@gmail.com} \\
+\href{https://github.com/telezhnaya}{github.com/telezhnaya} \\ +7 905 287 27 73}
+                                             
+\begin{resume}
+
+%\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
+
+\section{\uppercase{Personal Projects}}
+\begin{spacing}{0.3}
+\textcolor[RGB]{220,220,220}{\rule{\linewidth}{0.4pt}} 
+\end{spacing}
+\textbf{\href{https://github.com/git/git/commits?author=telezhnaya}{Contributions to Git}} (C, Shell, Git)~--- Unify codebase, optimize for-each-ref command, increase functionality of cat-file command, fix small bugs, cleanup the code. \\ \\ 
+\textbf{\href{https://github.com/telezhnaya/linux}{Scheduler in Linux Kernel}} (Linux, C, Git)~--- Create the prototype of block IO scheduler for groups of disks. It allows giving priority manually to one group of disks for read/write processes at high load points.
+
+\section{\uppercase{Working Experience} (1.5 years total)}
+\begin{spacing}{0.3}
+\textcolor[RGB]{220,220,220}{\rule{\linewidth}{0.4pt}} 
+\end{spacing}
+\vspace{0.2in}
+   \begin{itemize} \itemsep -2pt  % reduce space between items
+   \item {\textbf{TE at Microsoft}} (C\#, Python, Machine Learning, Linux, Azure)~--- Develop internal projects, speak at the conferences, write technical articles. (February 2017 - now)
+   \item {\textbf{SWE intern at Yandex}} (C++, Python, MapReduce, Bash, svn, regex)~--- Improve quality of search by geographical objects with help of linguistic features of Russian language. Add support for sides of the world. (July – October 2016)
+   \item \textbf{\href{https://github.com/ignatov/intellij-erlang/commits?author=telezhnaya}{SWE intern at JetBrains}} (Java, JUnit, Erlang, git)~--- Develop IntelliJ plugin for Erlang programming language. Create multiple inspections, autocompleting, links resolution requested by users. (July – September 2015)
+ \end{itemize}
+
+\section{\uppercase{Education}} 
+\begin{spacing}{0.3}
+\textcolor[RGB]{220,220,220}{\rule{\linewidth}{0.4pt}} 
+\end{spacing}
+\noindent \textbf{Peter the Great Saint-Petersburg Polytechnic University} \\
+Bachelor of Software and Administration of Information Systems (2012---2016) \\
+GPA $4.8/5.0$ \\ \\ 
+\textbf{\href{https://compscicenter.ru/about/}{Computer Science Center}} \\
+\href{https://compscicenter.ru/users/801/}{Software Engineering specialization} (2014---2016) \\
+\textbf{Courses passed:} Algorithms and Data Structures (in 2 parts) $\cdot$ Fundamentals of Discrete Mathematics $\cdot$ Computer Architecture and OS $\cdot$ C++ (in 2 parts) $\cdot$ Image Analysis (in 2 parts) $\cdot$ Python $\cdot$ Parallel Programming $\cdot$ Android Development $\cdot$ Machine Learning (Course of Moscow Data Analysis School) \\ \\ 
+\noindent \textbf{MOOCs:} \href{https://stepik.org/certificate/c97c48eb77cd3edbf2b4cb8d1624930ffe87cb7c.pdf}{Algorithms and Data Structures} $\cdot$ \href{https://www.coursera.org/learn/machine-learning}{Machine Learning by Andrew Ng, Stanford} $\cdot$ \href{https://www.coursera.org/learn/matematika-dlya-vseh}{Mathematics for everyone by Aleksey Savvateev}
+
+\section{\uppercase{Preferred technologies \& concepts}}
+\begin{spacing}{0.3}
+\textcolor[RGB]{220,220,220}{\rule{\linewidth}{0.4pt}} 
+\end{spacing}
+C/C++ $\cdot$ Python $\cdot$ Git $\cdot$ Algorithms $\cdot$ Data Structures $\cdot$ Linux $\cdot$ OOP $\cdot$ Image Analysis $\cdot$ Machine Learning $\cdot$ Linguistics $\cdot$ SQL $\cdot$ Conferences (both as listener and speaker) $\cdot$ System Programming \\ 
+\textbf{Languages:} Russian native, English fluent
+
+\end{resume}
+\end{document}
