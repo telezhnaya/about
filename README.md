@@ -1,6 +1,17 @@
 # about
-My resume with the source code. I hope I will update it as often as possible.
 
-If you have any advices how to improve my resume, if you find typos - please create the issue. Thank you in advance!
+My name is Olga Telezhnaia. 
 
-If you have job offer for me - please [write me](mailto:olyatelezhnaya@gmail.com). 
+This repo is for my CV (auto-generated from LaTeX) with the source code.
+I hope I will update it as often as possible.
+
+If you have any advices on how to improve my CV,
+or if you find typos — please create 
+[an issue](https://github.com/telezhnaya/about/issues).
+
+For the contributing see [contributing guide](CONTRIBUTING.md).
+
+Thank you in advance!
+
+If you have job offer for me —
+please reach me at [olyatelezhnaya@gmail.com](mailto:olyatelezhnaya@gmail.com).
