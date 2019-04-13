@@ -9,6 +9,12 @@
 \usepackage{fontawesome}
 \usepackage[hidelinks]{hyperref}
 
+% Does not work :-(
+%\usepackage{lastpage}
+%\usepackage{fancyhdr}
+%\fancyfoot[C]{Page \thepage\ of \pageref{LastPage}}
+%\let\nofiles\relax
+
 % Redefinition, symbol included in link:
 \let\orighref\href
 \renewcommand{\href}[2]{\orighref{#1}{#2\,\faExternalLink}}
@@ -17,12 +23,12 @@
 \emergencystretch=\maxdimen
 \hyphenpenalty=10000
 \hbadness=10000
-\begin{document} 
 
+\begin{document} 
  
 \name{\Huge Olga Telezhnaia\\[20pt]} % the \\[12pt] adds a blank line after name
 
-\address{November 2018 \\ Saint Petersburg, Russia}
+\address{April 2019 \\ Saint Petersburg, Russia}
 
 \address{\href{mailto:olyatelezhnaya@gmail.com}{olyatelezhnaya@gmail.com} \\
 \href{https://github.com/telezhnaya}{github.com/telezhnaya} \\ +7 905 287 27 73}
@@ -38,7 +44,7 @@
 \textbf{\href{https://github.com/git/git/commits?author=telezhnaya}{Contributions to Git}} (C, Shell, Git)~--- Optimize formatting system of Git (up to 3 times faster), increase functionality of cat-file, for-each-ref, ls-remote etc, unify codebase, decrease memory leaks. \\ \\
 \textbf{\href{https://github.com/telezhnaya/linux}{Scheduler in Linux Kernel}} (Linux, C, Git)~--- Create the prototype of block IO scheduler for groups of disks. It allows giving priority manually to one group of disks for read/write processes at high load points.
 
-\section{\uppercase{Working Experience} (2+ years total)}
+\section{\uppercase{Working Experience} (2.5+ years total)}
 \begin{spacing}{0.3}
 \textcolor[RGB]{220,220,220}{\rule{\linewidth}{0.4pt}} 
 \end{spacing}
@@ -62,12 +68,26 @@ GPA $4.8/5.0$ \\ \\
 \textbf{Courses passed:} Algorithms and Data Structures (in 2 parts) $\cdot$ Fundamentals of Discrete Mathematics $\cdot$ Computer Architecture and OS $\cdot$ C++ (in 2 parts) $\cdot$ Image Analysis (in 2 parts) $\cdot$ Python $\cdot$ Parallel Programming $\cdot$ Android Development $\cdot$ Machine Learning (Course of Moscow Data Analysis School) \\ \\ 
 \noindent \textbf{MOOCs:} \href{https://stepik.org/certificate/c97c48eb77cd3edbf2b4cb8d1624930ffe87cb7c.pdf}{Algorithms and Data Structures} $\cdot$ \href{https://www.coursera.org/learn/machine-learning}{Machine Learning by Andrew Ng, Stanford} $\cdot$ \href{https://www.coursera.org/learn/matematika-dlya-vseh}{Mathematics for everyone by Aleksey Savvateev}
 
+\null\newpage
+
+\section{\uppercase{Social Impact}}
+\begin{spacing}{0.3}
+\textcolor[RGB]{220,220,220}{\rule{\linewidth}{0.4pt}} 
+\end{spacing}
+\textbf{\href{http://djangogirls.org/stpetersburg/}{Django Girls}} ~--- Organized 2 events in Saint Petersburg, coached 3 new organizers and nearly 25 mentors, launching first Django Girls workshop in Kazan. Nearly 120 women started their journey in technologies after my workshops.\\ \\
+\textbf{\href{https://git.github.io/SoC-2019-Ideas/}{GSoC 2019: Mentor in Git}} ~--- Created project proposals, selected students. This summer, as active Git contributor, I will mentor one of GSoc students.\\ \\
+\textbf{\href{https://www.youtube.com/programming_together/}{YouTube Channel}} ~--- My videos help to empower other people to get into technologies. I do not have exact numbers, but letters in my public email said that 3 women entered technical University and 2 other women were selected to GSoC/Outreachy internship after watching my videos.\\ \\
+\textbf{\href{https://dmkpress.com/catalog/computer/}{Books about IT}} ~--- Review books about technologies, write proposal, edit translation, edit code examples so that my colleagues or studens or children (who does not know English still) could enjoy STEM books in Russian from around the world.\\ \\
+\textbf{Teaching} ~--- Teach Math and Programming for more than 5 years.\\ \\
+\textbf{Other} ~--- Took part in Hacktoberfest, MS Hackathon, Google Code Jam to I/O, visited as many conferences as I could to share my knowledge and find new friends. 
+
+My biggest passion is to develop parts of large project. I enjoy my main SWE role, and I am happy to make social impact projects as a hobby.
+
 \section{\uppercase{Preferred technologies \& concepts}}
 \begin{spacing}{0.3}
 \textcolor[RGB]{220,220,220}{\rule{\linewidth}{0.4pt}} 
 \end{spacing}
 C/C++ $\cdot$ Python $\cdot$ Git $\cdot$ Algorithms $\cdot$ Data Structures $\cdot$ Linux $\cdot$ OOP $\cdot$ Image Analysis $\cdot$ Machine Learning $\cdot$ Linguistics $\cdot$ SQL $\cdot$ Conferences (listener, speaker, organizer) $\cdot$ System Programming \\
 \textbf{Languages:} Russian native, English fluent
-
 \end{resume}
 \end{document}
