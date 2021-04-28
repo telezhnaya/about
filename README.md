@@ -1,6 +1,6 @@
 # about
 
-My name is Olga Telezhnaia and [here is my CV](https://github.com/telezhnaya/about/raw/master/Telezhnaia-cv.pdf).
+My name is Olga Telezhnaya and [here is my CV](https://github.com/telezhnaya/about/raw/master/Telezhnaya-cv.pdf).
 
 If you have any advices on how to improve my CV, or if you find typos — please create [an issue](https://github.com/telezhnaya/about/issues).
 
@@ -11,7 +11,7 @@ If you have job offer for me — please reach me at [olyatelezhnaya@gmail.com](m
 ## FAQ
 
 ### Telezhnaya or Telezhnaia?
-Sounds the same. I prefer to use the first option (as you could see in my nickname everywhere), but Russian government insist on the second one. So I use the second option for all documents (including CV).
+Sounds the same. I prefer to use the first option (as you could see in my nickname everywhere), but Russian government insist on the second one. I need to be careful working with legal documents.
 
 ### Olga or Olya?
 In Russian, first one is official, while second one is casual one. It's usually hard to pronounce `Olya` for people who do not speak Russian, so choose to your taste. Please do not write `Olia`, it looks awful and even Russian government will not push me to use this option.
