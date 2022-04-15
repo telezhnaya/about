@@ -28,17 +28,17 @@
 \hyphenpenalty=10000
 \hbadness=10000
 
-\begin{document} 
- 
-\name{\Huge Olga Telezhnaya\\[20pt]} % the \\[12pt] adds a blank line after name
+\begin{document}
 
-\address{April 2021 \\ Saint Petersburg, Russia}
+    \name{\Huge Olga Telezhnaya\\[20pt]} % the \\[12pt] adds a blank line after name
 
-\address{\href{mailto:olyatelezhnaya@gmail.com}{olyatelezhnaya@gmail.com} \\
-\href{https://github.com/telezhnaya}{github.com/telezhnaya}
-} %\\ +7 905 287 27 73}
-                                             
-\begin{resume}
+    \address{April 2022 \\ Dubai, UAE}
+
+    \address{\href{mailto:olyatelezhnaya@gmail.com}{olyatelezhnaya@gmail.com} \\
+    \href{https://github.com/telezhnaya}{github.com/telezhnaya}
+    } %\\ +7 905 287 27 73}
+
+    \begin{resume}
 %\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
 
 % \section{\uppercase{Education}} 
@@ -66,64 +66,94 @@
 %\textbf{Courses passed:} Algorithms and Data Structures (in 2 parts) $\cdot$ Fundamentals of Discrete Mathematics $\cdot$ Computer Architecture and OS $\cdot$ C++ (in 2 parts) $\cdot$ Image Analysis (in 2 parts) $\cdot$ Python $\cdot$ Parallel Programming $\cdot$ Android Development $\cdot$ Machine Learning (Course of Moscow Data Analysis School) \\ \\ 
 %\noindent \textbf{MOOCs:} \href{https://stepik.org/certificate/c97c48eb77cd3edbf2b4cb8d1624930ffe87cb7c.pdf}{Algorithms and Data Structures} $\cdot$ \href{https://www.coursera.org/learn/machine-learning}{Machine Learning by Andrew Ng, Stanford} $\cdot$ \href{https://www.coursera.org/learn/matematika-dlya-vseh}{Mathematics for everyone by Aleksey Savvateev}
 
-\section{\uppercase{Working Experience} (4+ years total)}
+        \section{\uppercase{Working Experience} (5+ years total)}
 % 0.5y of internships + 1.5y in Microsoft + 1y in Security Code + 1.5y in JetBrains
-\begin{spacing}{0.3}
-\textcolor[RGB]{220,220,220}{\rule{\linewidth}{0.4pt}} 
-\end{spacing}
-\vspace{0.2in}
-   \begin{itemize} \itemsep -2pt  % reduce space between items
-   \item \textbf{\href{https://near.org}{SWE at NEAR}}, Public Interfaces Team (Rust)~--- Working on balances in NEAR blockchain. (Mar 2021 - now)
-    \item \textbf{\href{https://github.com/JetBrains/educational-plugin}{SWE at JetBrains}}, Educational Plugin (Kotlin, Java, git)~--- Added support of Go language courses, added support of debug with input from examples, maintained checker subsystem, improved integration with \href{https://stepik.org/}{Stepik}, \href{https://hyperskill.org}{JetBrains Academy} and \href{http://codeforces.com}{Codeforces}. (Aug 2019 – Feb 2021)
+        \begin{spacing}{0.3}
+            \textcolor[RGB]{220,220,220}{\rule{\linewidth}{0.4pt}}
+        \end{spacing}
+
+        \begin{tabular}{ll}
+            Mar 2021 -- now \qquad \qquad & \textbf{\href{https://near.org}{Data Engineer at NEAR}}, Data Platform Team \\
+            & Rust, Python, SQL, Postgres, SingleStore \\
+        \end{tabular}
+
+        \begin{itemize} \itemsep -2pt
+            \item Massively sped up the access to the NEAR blockchain data by making a full storage redesign and migrating to the columnar DB;
+            \item Saved up to 400Gb of storage and increased the accuracy of data by changing the data format;
+            \item Created end-to-end pipeline for supporting FT, NFT in wallets: from designing NEP standards (similar to ERC) to serving the data.
+        \end{itemize}
+
+        \begin{tabular}{ll}
+            Aug 2019 -- Feb 2021 \quad & \textbf{\href{https://github.com/JetBrains/educational-plugin}{SWE at JetBrains}}, Educational Plugin \\
+            & Kotlin, Java, git \\
+        \end{tabular}
+
+        \begin{itemize} \itemsep -2pt
+            \item Made debugging process smoother for learners, maintained checker subsystem;
+            \item Improved integration with \href{https://stepik.org/}{Stepik}, \href{https://hyperskill.org}{JetBrains Academy} and \href{http://codeforces.com}{Codeforces};
+            \item Added support of Go language courses.
+        \end{itemize}
+
 %   \item {\textbf{Senior SWE at Security Code}} (Python, PostgreSQL, SQLAlchemy, Marshmallow)~--- Developed backend for web client of security tool. Sped up transport component between core and Python backend by up to 200\% by replacing a self-written component with GRPC. Improved data validation component by using OpenAPI. (Sep 2018 – Aug 2019)
-   \item {\textbf{Technology Evangelist at Microsoft}} (C\#, ML, Linux, Azure)~--- Developed internal projects, shared expertise at conferences, wrote technical articles. (Feb 2017 – Sep 2018)
+
+        \begin{tabular}{ll}
+            Feb 2017 -- Sep 2018 \quad & {\textbf{Technology Evangelist at Microsoft}} \\
+            & C\#, ML, Linux, Azure \\
+        \end{tabular}
+
+        \begin{itemize} \itemsep -2pt
+            \item Promoted Linux on Azure by creating apps and coding demos for Sales department;
+            \item Contributed to product develomment teams and spoke about it at conferences.
+        \end{itemize}
+
 %   \item {\textbf{SWE intern at Yandex}} (C++, Python, MapReduce, Bash, svn, regex)~--- Improved quality of search by geographical objects with help of linguistic features of Russian language. Added support for cardinal directions in queries. (Summer 2016)
 %   \item \textbf{\href{https://github.com/ignatov/intellij-erlang/commits?author=telezhnaya}{SWE intern at JetBrains}} (Java, JUnit, Erlang, git)~--- Developed IntelliJ plugin for Erlang programming language. Created multiple inspections, autocompleting, links resolution requested by users. (Summer 2015)
- \end{itemize}
- See full list of my working experience on my \href{https://www.linkedin.com/in/telezhnaya/}{Linkedin profile}.
+        See full list of my working experience on my \href{https://www.linkedin.com/in/telezhnaya/}{Linkedin profile}.
 
-\section{\uppercase{Personal Projects}}
-\begin{spacing}{0.3}
-\textcolor[RGB]{220,220,220}{\rule{\linewidth}{0.4pt}} 
-\end{spacing}
-\textbf{\href{https://github.com/git/git/commits?author=telezhnaya}{Contributions to Git}} (C, Shell, Git)~--- Optimized formatting system of Git (up to 3 times faster now), increased functionality of cat-file, for-each-ref, ls-remote etc, unified codebase, decreased memory leaks. I was the mentor in \href{https://summerofcode.withgoogle.com/}{GSoC in summer 2019}, my student worked on the project \href{https://summerofcode.withgoogle.com/projects/\#6477677521797120}{about parallelization of `git grep`}.\\
-\textbf{\href{https://github.com/telezhnaya/linux}{Scheduler in Linux Kernel}} (Linux, C, Git)~--- Created the prototype of block IO scheduler for groups of disks. It allows giving priority manually to one group of disks for read/write processes at high load points.\\
-\textbf{\href{https://github.com/telezhnaya/about/blob/master/My_social_impact.md}{Social activity}}~--- I am the organizer of \href{https://djangogirls.org/stpetersburg/}{Django Girls}, \href{https://spb.pyladies.com/}{PyLadies}, \href{https://www.womentechmakers.com}{Google WTM} and \href{https://women-in-tech.org}{Women in Tech}, \href{https://dmkpress.com/catalog/computer/}{STEM book reviewer} and \href{https://www.youtube.com/programming_together/}{YouTube creator}. Full list of my impact is \href{https://github.com/telezhnaya/about/blob/master/My_social_impact.md}{in the link}.
+
+        \section{\uppercase{Personal Projects}}
+        \begin{spacing}{0.3}
+            \textcolor[RGB]{220,220,220}{\rule{\linewidth}{0.4pt}}
+        \end{spacing}
+        \textbf{\href{https://github.com/git/git/commits?author=telezhnaya}{Contributions to Git}} (C, Shell, Git)~--- Optimized formatting system of Git (up to 3 times faster), increased functionality of cat-file, for-each-ref, ls-remote etc, unified codebase, decreased memory leaks. I was also the mentor in \href{https://summerofcode.withgoogle.com/}{GSoC in summer 2019}, my student worked on \href{https://summerofcode.withgoogle.com/projects/\#6477677521797120}{the parallelization of git grep}.\\
+        \textbf{\href{https://github.com/telezhnaya/linux}{Scheduler in Linux Kernel}} (Linux, C, Git)~--- Created the prototype of block IO scheduler for groups of disks. It allows giving priority manually to one group of disks for read/write processes at high load points.\\
+        \textbf{\href{https://github.com/telezhnaya/about/blob/master/My_social_impact.md}{Social activity}}~--- I am the organizer of internal NEAR meetup. I was the organizer \href{https://djangogirls.org/stpetersburg/}{Django Girls}, \href{https://spb.pyladies.com/}{PyLadies}, \href{https://www.womentechmakers.com}{Google WTM} and \href{https://women-in-tech.org}{Women in Tech}, \href{https://dmkpress.com/catalog/computer/}{STEM book reviewer} and \href{https://www.youtube.com/programming_together/}{YouTube creator}. See more details \href{https://github.com/telezhnaya/about/blob/master/My_social_impact.md}{at the link}.
 
 % https://www.meetup.com/gdgspb/events/262205253/
 
-\section{\uppercase{Education}} 
-\begin{spacing}{0.3}
-\textcolor[RGB]{220,220,220}{\rule{\linewidth}{0.4pt}} 
-\end{spacing}
+
+        \section{\uppercase{Education}}
+        \begin{spacing}{0.3}
+            \textcolor[RGB]{220,220,220}{\rule{\linewidth}{0.4pt}}
+        \end{spacing}
 %\renewcommand{\arraystretch}{1.4}
-\begin{tabular}[t]{l l}
+        \begin{tabular}[t]{l l}
 % 2019 – 2021 & \textbf{Master of Computer Science}, ITMO University \\
 %2012 – 2016 & \makecell[l]{\textbf{Bachelor of Computer Science} \\ Saint-Petersburg Polytechnic University, GPA $4.8/5.0$}
-2012 – 2016 & \textbf{Bachelor of Computer Science}, GPA $4.8/5.0$ \\
-& Peter the Great Saint-Petersburg Polytechnic University \\
-2014 – 2016 & \makecell[l]{\textbf{\href{https://compscicenter.ru/}{Computer Science Center}}, \href{https://compscicenter.ru/students/801/}{Software Engineering specialization}}
-\end{tabular}
+            2012--2016 & \textbf{Bachelor of Computer Science}, GPA $4.8/5.0$                                                                                                                 \\
+            & Peter the Great Saint-Petersburg Polytechnic University                                                                                                              \\
+            2014--2016 & \makecell[l]{\textbf{\href{https://compscicenter.ru/}{Computer Science Center}}, \href{https://compscicenter.ru/students/801/}{Software Engineering specialization}}
+        \end{tabular}
 
-\section{\uppercase{Skills}}
-\begin{spacing}{0.3}
-\textcolor[RGB]{220,220,220}{\rule{\linewidth}{0.4pt}} 
-\end{spacing}
-Python $\cdot$ Kotlin $\cdot$ C++ $\cdot$ Git $\cdot$ Algorithms $\cdot$ Data Structures $\cdot$ SQL $\cdot$ Linux $\cdot$ System Programming $\cdot$ Data Analysis $\cdot$ Image Analysis $\cdot$ Linguistics $\cdot$ Conferences (organizer, speaker, listener)
+        % \section{\uppercase{Skills}}
+        % \begin{spacing}{0.3}
+        %     \textcolor[RGB]{220,220,220}{\rule{\linewidth}{0.4pt}}
+        % \end{spacing}
+        % Python $\cdot$ Kotlin $\cdot$ C++ $\cdot$ Git $\cdot$ Algorithms $\cdot$ Data Structures $\cdot$ SQL $\cdot$ Linux $\cdot$ System Programming $\cdot$ Data Analysis $\cdot$ Image Analysis $\cdot$ Linguistics $\cdot$ Conferences (organizer, speaker, listener)
 
 % \section{\uppercase{Social Impact}}
 % \begin{spacing}{0.3}
-% \textcolor[RGB]{220,220,220}{\rule{\linewidth}{0.4pt}} 
+% \textcolor[RGB]{220,220,220}{\rule{\linewidth}{0.4pt}}
 % \end{spacing}
 % \textbf{\href{http://djangogirls.org/stpetersburg/}{Django Girls}}~--- Organized 2 events in Saint Petersburg, coached 3 new organizers and nearly 25 mentors, launching first Django Girls workshop in Kazan. Nearly 120 women started their journey in technologies after my workshops.\\ \\
 % \textbf{\href{https://git.github.io/SoC-2019-Ideas/}{GSoC 2019: Mentor in Git}}~--- Created project proposals, selected students. This summer, as active Git contributor, I will mentor one of GSoC students.\\ \\
 % \textbf{\href{https://www.youtube.com/programming_together/}{YouTube Channel}}~--- My videos help to empower other people to get into technologies. I do not have exact numbers, but letters in my public email said that 3 women entered technical University and 2 other women were selected to GSoC/Outreachy internship after watching my videos.\\ \\
 % \textbf{\href{https://dmkpress.com/catalog/computer/}{Books about IT}}~--- Reviewing books about technologies, writing proposals, editing translation, editing code examples so that my colleagues or studens or children (who does not know English still) could enjoy STEM books in Russian from around the world.\\ \\
 % \textbf{Teaching}~--- Teached Math and Programming for more than 5 years.\\ \\
-% \textbf{Other}~--- Took part in Hacktoberfest, MS Hackathon, Google Code Jam to I/O. I always visit as many conferences as I can to share my knowledge and find new friends. 
+% \textbf{Other}~--- Took part in Hacktoberfest, MS Hackathon, Google Code Jam to I/O. I always visit as many conferences as I can to share my knowledge and find new friends.
 % \textbf{My biggest passion is} to develop parts of large project. I enjoy my main SWE role, and I am happy to make social impact projects as a hobby.
 
-\textbf{Languages:} English fluent, Russian native
+        % \textbf{Languages:} English fluent, Russian native
 
-\end{resume}
+    \end{resume}
 \end{document}
